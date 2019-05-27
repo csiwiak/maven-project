@@ -4,6 +4,11 @@ pipeline {
     tools {
         maven 'localMaven'
     }
+    environment {
+
+    PATH = "C:\\WINDOWS\\SYSTEM32"
+
+}
 
     stages{
         stage('Build'){
